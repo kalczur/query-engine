@@ -1,0 +1,13 @@
+C:\Users\kalcz\source\repos\QueryEngine\QueryEngine\bin\Debug\netcoreapp3.1\QueryEngine.exe
+C:\Users\kalcz\source\repos\QueryEngine\QueryEngine\bin\Debug\netcoreapp3.1\QueryEngine.deps.json
+C:\Users\kalcz\source\repos\QueryEngine\QueryEngine\bin\Debug\netcoreapp3.1\QueryEngine.runtimeconfig.json
+C:\Users\kalcz\source\repos\QueryEngine\QueryEngine\bin\Debug\netcoreapp3.1\QueryEngine.runtimeconfig.dev.json
+C:\Users\kalcz\source\repos\QueryEngine\QueryEngine\bin\Debug\netcoreapp3.1\QueryEngine.dll
+C:\Users\kalcz\source\repos\QueryEngine\QueryEngine\bin\Debug\netcoreapp3.1\QueryEngine.pdb
+C:\Users\kalcz\source\repos\QueryEngine\QueryEngine\obj\Debug\netcoreapp3.1\QueryEngine.csprojAssemblyReference.cache
+C:\Users\kalcz\source\repos\QueryEngine\QueryEngine\obj\Debug\netcoreapp3.1\QueryEngine.AssemblyInfoInputs.cache
+C:\Users\kalcz\source\repos\QueryEngine\QueryEngine\obj\Debug\netcoreapp3.1\QueryEngine.AssemblyInfo.cs
+C:\Users\kalcz\source\repos\QueryEngine\QueryEngine\obj\Debug\netcoreapp3.1\QueryEngine.csproj.CoreCompileInputs.cache
+C:\Users\kalcz\source\repos\QueryEngine\QueryEngine\obj\Debug\netcoreapp3.1\QueryEngine.dll
+C:\Users\kalcz\source\repos\QueryEngine\QueryEngine\obj\Debug\netcoreapp3.1\QueryEngine.pdb
+C:\Users\kalcz\source\repos\QueryEngine\QueryEngine\obj\Debug\netcoreapp3.1\QueryEngine.genruntimeconfig.cache
