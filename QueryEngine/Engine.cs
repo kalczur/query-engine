@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace QueryEngine
@@ -7,7 +8,7 @@ namespace QueryEngine
     class Engine
     {
         private Data _data;
-
+        private List<string> _constraintOperators = new List<string> { "=", ">", ">=", "<", "<=" };
         public Engine(Data data)
         {
             this._data = data;
@@ -175,6 +176,9 @@ namespace QueryEngine
             if (constraintOperator == "" || leftConditionValueString == "" || rightConditionValueString == "")
                 throw new ArgumentException("Missing condition arguments");
 
+            // Constraint operator validation
+            if (!_constraintOperators.Contains(constraintOperator))
+                throw new ArgumentException("Bad constraint operator");
 
             // Depending on the constraint operator choose what to return
             switch (constraintOperator)
