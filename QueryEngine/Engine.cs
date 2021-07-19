@@ -155,7 +155,7 @@ namespace QueryEngine
                 return false;
 
             // Regex patterns
-            Regex valuesRegex = new Regex(@"[\w ]+");
+            Regex valuesRegex = new Regex(@"[\w']+");
             Regex constraintRegex = new Regex(@"[=><]+");
 
             // Values collection
@@ -184,7 +184,12 @@ namespace QueryEngine
             switch (constraintOperator)
             {
                 case "=":
-                    return leftConditionValueString == rightConditionValueString;
+                    if (rightConditionValueString.Contains("'"))
+                    {
+                        rightConditionValueString = Regex.Replace(rightConditionValueString, "'", "");
+                        return leftConditionValueString == rightConditionValueString;
+                    }
+                    return Convert.ToDouble(leftConditionValueString) == Convert.ToDouble(rightConditionValueString);
                 case ">":
                     return Convert.ToDouble(leftConditionValueString) > Convert.ToDouble(rightConditionValueString);
                 case ">=":
