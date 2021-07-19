@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kalcz\\source\\repos\\QueryEngine\\QueryEngine\\QueryEngine.csproj",
+      "projectUniqueName": "C:\\Users\\kalcz\\Documents\\GitHub\\query-engine\\QueryEngine\\QueryEngine.csproj",
       "projectName": "QueryEngine",
-      "projectPath": "C:\\Users\\kalcz\\source\\repos\\QueryEngine\\QueryEngine\\QueryEngine.csproj",
+      "projectPath": "C:\\Users\\kalcz\\Documents\\GitHub\\query-engine\\QueryEngine\\QueryEngine.csproj",
       "packagesPath": "C:\\Users\\kalcz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kalcz\\source\\repos\\QueryEngine\\QueryEngine\\obj\\",
+      "outputPath": "C:\\Users\\kalcz\\Documents\\GitHub\\query-engine\\QueryEngine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kalcz\\AppData\\Roaming\\NuGet\\NuGet.Config",

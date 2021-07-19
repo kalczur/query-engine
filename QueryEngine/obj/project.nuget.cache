@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y+D7VUyOMUNXKMnEMqDlAXZdfSNUwX4jyfN6J48+gqSwC6hnqUeyQUcEggbt+IUJaDjdBqmWA2qFVRPqO9bxRQ==",
+  "dgSpecHash": "J9d1OdRWrsVsrOJYV6N1D62MRHq2KMiIrJJW4svfOGEBOBlOJmZ+7OD3BAXNXS0rd8XWpMqRoxyhy0zZrnGKsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kalcz\\source\\repos\\QueryEngine\\QueryEngine\\QueryEngine.csproj",
+  "projectFilePath": "C:\\Users\\kalcz\\Documents\\GitHub\\query-engine\\QueryEngine\\QueryEngine.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

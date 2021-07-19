@@ -155,7 +155,7 @@ namespace QueryEngine
 
             // Regex patterns
             Regex valuesRegex = new Regex(@"[\w ]+");
-            Regex constraintRegex = new Regex(@"\W{1}");
+            Regex constraintRegex = new Regex(@"[=><]+");
 
             // Values collection
             MatchCollection valuesMatchCollection = valuesRegex.Matches(conditionString);
@@ -174,6 +174,7 @@ namespace QueryEngine
             // Throw exception if something is missing
             if (constraintOperator == "" || leftConditionValueString == "" || rightConditionValueString == "")
                 throw new ArgumentException("Missing condition arguments");
+
 
             // Depending on the constraint operator choose what to return
             switch (constraintOperator)
